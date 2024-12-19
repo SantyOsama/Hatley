@@ -1,0 +1,38 @@
+.all-comments {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+@media (max-width: 768px) {
+  .all-comments {
+    padding: 0 10px;
+    margin: auto auto;
+  }
+}
+.all-comments > p {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.all-comments .one-comment {
+  /* padding: 10px; */
+  /* border: 2px solid red; */
+}
+.side-modified {
+  margin-left: 12px;
+}
+.toggle-modified-rating {
+  margin-right: -10.5px;
+}
+@media (max-width: 768px) {
+  .side-modified {
+    margin-left: 0px;
+  }
+}
+.sidebar-toggle-button-ratings-delivery {
+  margin-right: -22px !important;
+}
+.rating-label {
+  font-size: 30px;
+}

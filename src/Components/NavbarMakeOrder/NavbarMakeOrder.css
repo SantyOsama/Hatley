@@ -1,0 +1,13 @@
+.container-data-nav {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-top: -150px;
+  margin-bottom: -100px;
+  width: 90%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #06004f !important;
+}

@@ -1,0 +1,129 @@
+.container_data {
+  padding: 20px 50px;
+  background-color: #c1e6fd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 768px) {
+  .container_data {
+    margin-top: 30px;
+    margin-left: -100px;
+  }
+}
+
+.input_data {
+  position: relative;
+  margin-bottom: 20px;
+  width: 80%;
+  padding-left: 50px;
+}
+@media (max-width: 768px) {
+  .input_data {
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+    padding-left: 5px;
+  }
+}
+
+.form-control {
+  margin-top: 5px;
+  width: calc(100%);
+}
+
+@media (max-width: 768px) {
+  .sidebar-col {
+    margin-top: 0 !important;
+  }
+
+  .form-control {
+    width: 100%;
+  }
+}
+
+.button-edit,
+.button-save {
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: all 0.3s;
+  width: 150px;
+}
+.edit-save {
+  display: flex;
+  justify-content: space-evenly !important;
+}
+
+.button-edit {
+  color: #007bff !important;
+  border: 2px solid #007bff !important;
+}
+
+.button-edit:hover {
+  background-color: #007bff;
+  color: white !important;
+}
+
+.button-save {
+  color: white;
+  border: none;
+  background-color: #007bff;
+}
+
+.button-save:hover {
+  background-color: #0056b3;
+}
+
+.icon-show-password-parent {
+  position: absolute;
+  right: 10px;
+  top: 72%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.icon-show-password {
+  font-size: 14px;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.show-password-button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.toggle-modified-settings {
+  margin-right: -11px;
+}
+.sidebar-toggle-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -15px;
+  color: #0084ff;
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  margin-right: -13.5px;
+  /* z-index: 100000000000; */
+}
+@media (max-width: 767px) {
+  .sidebar-container {
+    display: block !important;
+  }
+}
+.sidebar-toggle-button-settings-delivery {
+  margin-right: -22px !important;
+}

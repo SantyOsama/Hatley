@@ -1,0 +1,160 @@
+.orderForDelivery {
+  border-right: 5px solid #0084ff;
+  border-left: 5px solid #0084ff;
+  width: 90vw;
+  max-width: 900px;
+  padding: 10px;
+  margin: 0 auto !important;
+  border-radius: 10px;
+  background: linear-gradient(270deg, #ffffff, #bcdbf8);
+  margin-bottom: 50px !important;
+}
+
+.first-row {
+  margin-bottom: 20px !important;
+  margin-top: -10px !important;
+  padding: 20px;
+  border-bottom: 3px solid #0084ff;
+}
+
+.first-row .nameOfUser h2 {
+  font-size: 35px;
+  color: #0084ff;
+}
+
+.first-row .price-time {
+  color: #54b924;
+  font-size: 40px;
+  font-weight: bold;
+}
+.first-row .price-time .time {
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.orderForDelivery .order-det {
+  color: #333;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  line-height: 2;
+  margin-bottom: 10px;
+  padding: 0px 50px;
+  text-align: left;
+}
+
+.orderForDelivery .order-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.orderForDelivery .order-buttons button {
+  width: 125px;
+}
+
+.orderForDelivery .order-buttons :nth-child(1) {
+  background-color: #ffffff;
+  color: #0085ff;
+  border: none;
+  text-shadow: 0px 0px 1px #1877d1;
+  font-size: 25px;
+}
+
+.orderForDelivery .order-buttons :nth-child(1):active {
+  background-color: #0085ff;
+  color: white;
+  border: none;
+}
+
+.orderForDelivery .order-buttons :nth-child(2) {
+  background-color: #54b924;
+  color: white;
+  border: none;
+  text-shadow: 0 0 1px #fff;
+}
+
+.orderForDelivery .order-buttons :nth-child(2):active,
+.orderForDelivery .order-buttons :nth-child(2):hover {
+  background-color: #5da43c;
+  color: white;
+  border: none;
+}
+
+.orderForDelivery .order-buttons :nth-child(2):active {
+  background-color: #319c00;
+  color: #ddd;
+  border: none;
+}
+
+@media screen and (max-width: 767px) {
+  .orderForDelivery .order-det {
+    color: #333;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.8;
+    margin-bottom: 10px;
+    padding: 0 15px;
+    text-align: left;
+  }
+  .orderForDelivery .first-row .img {
+    margin-bottom: 10px;
+    order: 1;
+  }
+
+  .orderForDelivery .first-row .first-column {
+    order: 1;
+    text-align: center;
+  }
+
+  .orderForDelivery .first-row .nameOfUser {
+    order: 2 !important;
+    text-align: center;
+    font-size: 25px;
+    color: #0084ff;
+  }
+
+  .orderForDelivery .first-row .price-time {
+    order: 3 !important;
+    text-align: center !important;
+    color: #54b924;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px;
+  }
+
+  .orderForDelivery .to-from {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .orderForDelivery .order-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
+.modal-max-width {
+  max-width: 900px !important; /* Set the maximum width of the modal */
+}
+.custom-modal-height .modal-dialog {
+  max-height: 60vw; /* Set the maximum height of the modal relative to viewport width */
+}
+
+.modal-transparent-bg .modal-content {
+  background-color: transparent; /* Set the background color of the modal content to transparent */
+}
+.centered-modal-body {
+  margin-left: -29px;
+  margin-top: -10px;
+}
+.orderIdHomeDelivery {
+  font-weight: bold;
+  font-size: 20px;
+}
+.orderIdHomeDelivery span {
+  color: #0084ff;
+}

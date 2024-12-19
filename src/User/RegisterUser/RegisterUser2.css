@@ -1,0 +1,167 @@
+.div-container-register-user {
+  max-width: 500px !important;
+  background-color: white;
+  border-radius: 8px !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 60px !important;
+  margin-top: 100px !important;
+}
+@media (max-width: 480px) {
+  .div-container-register-user {
+    margin-top: 50px !important;
+  }
+}
+
+body {
+  background: linear-gradient(270deg, #ffffff, #bcdbf8) !important;
+  font-family: "Inter", sans-serif;
+}
+:root {
+  --invalid-color: rgb(236, 106, 106);
+  --valid-border-color: #6d6d6d;
+  --valid-border-color-on-focus: #0084ff;
+  --valid-box-shadow-color-on-focus: #0084ff;
+  --valid-label-focus-color: #0084ff;
+  --invalid-label-focus-color: rgb(236, 106, 106);
+  /* --border-focus-color: #0c0c0c; Define variable for border focus color */
+}
+
+.form-control.is-valid,
+.was-validated .form-control:valid {
+  border: 1px solid var(--valid-border-color) !important;
+}
+/* Customize the focus state for form control */
+.form-control.is-invalid:focus {
+  border-color: var(
+    --invalid-color
+  ) !important; /* Change border color on focus when input is invalid */
+  box-shadow: 0 0 0 0.2rem var(--invalid-color, 0.5) !important; /* Change box shadow on focus when input is invalid */
+  /* Change box shadow on focus when input is invalid */
+}
+
+.form-control.is-valid:focus {
+  border-color: var(
+    --valid-border-color-on-focus
+  ) !important; /* Change border color on focus when input is valid */
+  box-shadow: 0 0 0 0.2rem var(--valid-box-shadow-color-on-focus) !important; /* Change box shadow on focus when input is valid */
+}
+
+.form-control:focus {
+  border-color: var(
+    --valid-border-color-on-focus
+  ) !important; /* Change border color on focus when input is valid */
+  box-shadow: var(
+    --valid-box-shadow-color-on-focus
+  ) !important; /* Change box shadow on focus when input is valid */
+}
+
+.floating-label-wrapper .form-floating {
+  position: relative;
+}
+
+.floating-label-wrapper .form-floating label {
+  position: absolute;
+  top: -5px;
+  left: 16px;
+  pointer-events: none;
+  transition: top 0.3s ease, opacity 0.3s ease;
+}
+
+.floating-label-wrapper .form-floating input.form-control {
+  height: 25px !important;
+  padding: 0 25px !important;
+  font-size: 16px !important;
+  border-radius: 10px !important; /* Add border radius if needed */
+}
+
+.floating-label-wrapper .form-floating input.form-control:focus ~ label,
+.floating-label-wrapper
+  .form-floating
+  input.form-control:not(:placeholder-shown)
+  ~ label {
+  top: -1.4rem;
+  font-size: 20px;
+  color: var(
+    --valid-label-focus-color
+  ); /* Use variable for label focus color */
+}
+.floating-label-wrapper
+  .form-floating
+  input.form-control.is-invalid:focus
+  ~ label,
+.floating-label-wrapper
+  .form-floating
+  input.form-control.is-invalid:not(:placeholder-shown)
+  ~ label {
+  color: var(
+    --invalid-label-focus-color
+  ); /* Use variable for invalid label focus color */
+}
+/* .floating-label-wrapper .form-floating input.form-control:focus {
+  border-color: #0c0c0c;
+} */
+
+.password-toggle-icon {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 5112;
+}
+.password-requirements {
+  font-size: 14px;
+  color: #6c757d;
+  margin-top: 5px;
+  margin-bottom: -30px;
+}
+
+.password-requirements strong {
+  color: #dc3545;
+}
+
+.password-requirements-item {
+  margin-bottom: 1px;
+}
+.password-requirements-item {
+  margin-bottom: 1px;
+}
+
+.password-requirements-item span {
+  color: #dc3545;
+}
+
+.password-requirements-item.valid span {
+  color: green;
+}
+
+.password-requirements-item.invalid span {
+  color: #dc3545;
+}
+.form-floating > .form-control,
+.form-floating > .form-control-plaintext,
+.form-floating > .form-select {
+  height: calc(3.5rem + calc(var(--bs-border-width) * 2));
+  min-height: calc(2.8rem + calc(var(--bs-border-width) * 2)) !important;
+  line-height: 1.25;
+}
+.form-control.is-valid,
+.was-validated .form-control:valid:empty {
+  background-image: none !important;
+}
+.form-control.is-invalid,
+.was-validated .form-control:valid:empty {
+  background-image: none !important;
+}
+.disabled-button {
+  /* Add your styles here */
+  opacity: 0.8;
+  cursor: not-allowed !important;
+  width: 100%;
+}
+.button-register-user button {
+  width: 100%;
+  /* background-color: #0084ff !important; */
+}

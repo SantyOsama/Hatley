@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+@media (max-width: 768px) {
+  .sideLeft {
+    margin: 50px auto !important;
+    height: 70vb;
+  }
+}
+@media (min-width: 992px) {
+  .sizing {
+    padding: 32px 48px 0 48px !important;
+  }
+}
+
+.head-line {
+  padding: 20px;
+  font-size: 50px;
+  text-align: center;
+  color: #06004f;
+  width: 90%;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  box-shadow: 0px 8px 15px -10px rgba(0, 0, 0, 0.5);
+}
+.setting-order-deliveries {
+  margin-right: -25px !important;
+}

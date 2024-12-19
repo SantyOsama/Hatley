@@ -1,0 +1,60 @@
+.container-data-make {
+  /* background-color: #c1e6fd;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  padding: 50px 60px;
+  width: 95%;
+  max-width: 1320px;
+  border: 3px solid #06004f;
+  margin: 100px auto 100px; */
+  background-color: transparent;
+  border-radius: 6px;
+  padding: 50px 60px;
+  width: 85%;
+  max-width: 1320px;
+  border: 1px solid #06004f;
+  margin: 100px auto 100px;
+}
+.container-data-make .form-label-make-order textarea {
+  min-height: 270px !important;
+}
+@media (min-width: 992px) {
+  .container-data-make .price-data-time {
+    padding-right: 150px;
+  }
+  .container-data-make .order-Details {
+    padding-right: 150px;
+  }
+}
+@media (max-width: 767px) {
+  .container-data-make .order-Details {
+    order: 1;
+  }
+  .container-data-make {
+    padding: 10px;
+  }
+}
+
+.form-label-make-order {
+  font-weight: bold;
+  color: #06004f !important;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+.arrow-icon {
+  color: #06004f;
+  font-size: 50px;
+  text-align: center;
+  margin: 40px 0 0 47.5%;
+}
+@media (max-width: 769px) {
+  .button-1 {
+    order: 2;
+  }
+  .button-2 {
+    order: 1;
+  }
+}
+.negative-margin {
+  margin-top: -25px;
+}

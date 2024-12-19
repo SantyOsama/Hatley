@@ -1,0 +1,16 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  /* background: linear-gradient(270deg, #ffffff, #bcdbf8); */
+  /* height: 10000px; */
+}
+a {
+  text-decoration: none !important;
+  color: #479eef !important;
+}
+/* hr {
+  display: none;
+} */

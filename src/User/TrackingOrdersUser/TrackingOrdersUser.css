@@ -1,0 +1,30 @@
+.box-tracking {
+  border: 5px solid #0083fd;
+  border-radius: 10px;
+  font-weight: bold;
+  margin: 40px;
+  color: black;
+}
+/*  */
+/* .text-start p span {
+  color: #ff9e00;
+}
+.status_g p span {
+  color: #009e10;
+} */
+.img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -70px;
+  margin-bottom: -70px;
+  max-width: 90%;
+  height: auto;
+}
+.to-from {
+  font-weight: bold;
+  font-size: 30px;
+}
+.black {
+  color: black !important;
+}

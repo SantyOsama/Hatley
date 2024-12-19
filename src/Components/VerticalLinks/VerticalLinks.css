@@ -1,0 +1,14 @@
+.vertical-links {
+  margin-top: 10px;
+}
+.vertical-links a {
+  display: block;
+  margin-bottom: 5px; /*Adjust as needed */
+  font-size: 14px;
+  text-decoration: none; /* Remove default underline */
+  width: 150px;
+}
+
+.vertical-links a:hover {
+  text-decoration: underline !important; /* Underline active link */
+}

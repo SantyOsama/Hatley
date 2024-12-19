@@ -1,0 +1,68 @@
+.profile-card {
+  width: 300px;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.profile-card:hover {
+  border-color: #007bff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.profile-image-container {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+
+.profile-image-container img {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  border-radius: 50%;
+}
+
+.profile-image-container img:hover {
+  transform: scale(1.1);
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 30px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  /* border-top-right-radius: 80%;
+  border-top-left-radius: 80%; */
+
+  pointer-events: none;
+  margin-top: 70px;
+}
+
+.profile-image-container:hover .overlay {
+  opacity: 1;
+}
+
+.profile-name {
+  margin-top: 15px;
+}
+
+button {
+  margin-top: 15px;
+}

@@ -1,0 +1,26 @@
+.detailed-address {
+  min-height: 100px !important;
+}
+@media (max-width: 768px) {
+  .custom-col-1 {
+    order: 1;
+  }
+  .custom-col-2 {
+    order: 2;
+  }
+  .custom-col-3 {
+    order: 3;
+  }
+}
+
+@media (max-width: 576px) {
+  .custom-col-1 {
+    order: 3;
+  }
+  .custom-col-2 {
+    order: 2;
+  }
+  .custom-col-3 {
+    order: 1;
+  }
+}

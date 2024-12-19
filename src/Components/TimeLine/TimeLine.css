@@ -1,0 +1,158 @@
+.timeline {
+  display: flex;
+  align-items: center;
+}
+/*  */
+.row-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.active-line {
+  flex-grow: 1;
+  height: 10px;
+  background-color: #0083fd;
+}
+.inactive-line {
+  flex-grow: 1;
+  height: 10px;
+  background-color: #0083fd;
+  opacity: 30%;
+}
+
+.active-point {
+  width: 30px;
+  height: 30px;
+  background-color: #0083fd;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 -1.8px;
+}
+
+.inactive-point {
+  width: 30px;
+  height: 30px;
+  background-color: #0083fd;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 -1px;
+  opacity: 30%;
+}
+
+.loading-icon {
+  animation: spin 1.5s infinite linear;
+  color: white;
+}
+.done-icon {
+  color: white;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.timeline-2 {
+  display: flex;
+}
+
+.box-tracking {
+  text-align: center;
+  padding: 10px;
+  background-color: #f8f9fa;
+  /* border: 1px solid #dee2e6; */
+}
+
+.hidden {
+  flex-grow: 1;
+}
+.rating-button {
+  background-color: white !important;
+  color: #6c6b6b !important;
+  border: 3px solid #0083fd !important;
+  border-radius: 8px !important;
+  padding: 2px 15px 5px 15px !important;
+  font-size: 20px !important;
+}
+/* Additional styles for TrackingOrdersUser component */
+
+.content-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-end {
+  text-align: end;
+}
+.margin {
+  margin-left: -80px !important;
+}
+.margin-route {
+  margin-right: -90px !important;
+}
+.pending {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ff9e00;
+}
+.complete {
+  color: #009e10;
+  font-size: 30px;
+  font-weight: bold;
+}
+.status {
+  color: #ff9e00;
+}
+.status_g {
+  color: #009e10;
+}
+.status_p {
+  color: #ff9e00;
+}
+@media (max-width: 1200px) {
+  .margin {
+    margin-left: -20px !important;
+  }
+  .margin-route {
+    margin-right: -10px !important;
+  }
+}
+@media (max-width: 400px) {
+  .row-2 {
+    display: none !important;
+  }
+}
+.active-point,
+.inactive-point,
+.active-line,
+.inactive-line {
+  transition: all 0.9s ease !important; /* Adjust timing and easing as needed */
+}
+.rating-margin {
+  margin-left: 270% !important;
+}
+.add-rating-margin {
+  margin-left: 30%;
+}
+@media (max-width: 480px) {
+  .content-col-tracing {
+    margin-left: -15px !important;
+  }
+  .to-from-col-tracing {
+    margin-left: -35px !important;
+  }
+}

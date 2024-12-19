@@ -1,0 +1,31 @@
+.div-container-login-user {
+  max-width: 500px !important;
+  background-color: white;
+  border-radius: 8px !important;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 60px !important;
+  width: 90%;
+  margin-top: -100px !important;
+}
+.input-email-user {
+  margin-right: -34px !important;
+}
+.submit-button {
+  background-color: #0076e4;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  padding: 8px;
+  font-size: 18px !important;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .div-container-login-user {
+    margin-left: -10px !important;
+  }
+}

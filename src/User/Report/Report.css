@@ -1,0 +1,63 @@
+.report-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  /* background-color: #007bff; */
+  /* padding: 20px; */
+  box-sizing: border-box;
+  /* margin: 0 auto; */
+  margin-top: -10px;
+  width: 100% !important;
+}
+
+.report-form {
+  background: #0055b9;
+  padding: 20px;
+  border-radius: 8px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  width: 100vb;
+  /* max-width: 500px; */
+  border-end-end-radius: 5px;
+  border-end-start-radius: 5px;
+}
+
+.report-heading {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.input-container {
+  margin-bottom: 10px;
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333333;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.submit-button-report {
+  width: 100%;
+  padding: 10px;
+  background-color: #c82333 !important;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button-report:hover {
+  background-color: #ae0516 !important;
+}

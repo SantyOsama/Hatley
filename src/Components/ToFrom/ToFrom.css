@@ -1,0 +1,19 @@
+.toFrom {
+  font-size: 30px;
+}
+@media (max-width: 992px) {
+  .toFrom {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .toFrom {
+    font-size: 15px;
+  }
+}
+@media (max-width: 482px) {
+  .toFrom {
+    font: size 12px;
+    margin-right: -80px;
+  }
+}

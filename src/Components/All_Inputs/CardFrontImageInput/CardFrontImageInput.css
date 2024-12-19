@@ -1,0 +1,41 @@
+.image-input-component {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #6d6d6d;
+  padding: 7px;
+  border-radius: 10px;
+  background-color: white;
+}
+.all-div {
+  width: 94% !important;
+  margin-left: 12px;
+}
+@media (max-width: 480px) {
+  .all-div {
+    width: 93% !important;
+    margin-left: 10px;
+  }
+}
+.image-input-label {
+  margin-right: 10px;
+}
+
+.file-button {
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 3px 8px;
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.file-icon {
+  margin-left: 5px;
+}
+.file-name {
+  max-width: 75px;
+  overflow: hidden;
+}

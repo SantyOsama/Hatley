@@ -1,0 +1,28 @@
+.floating-label-wrapper .form-floating {
+  position: relative;
+}
+
+.floating-label-wrapper .form-floating label {
+  position: absolute;
+  top: -5px;
+  left: 16px;
+  pointer-events: none;
+  transition: top 0.3s ease, opacity 0.3s ease;
+}
+
+.floating-label-wrapper .form-floating input.form-control {
+  height: 25px !important;
+  padding: 0 25px !important;
+  font-size: 16px !important;
+  border-radius: 10px !important;
+}
+
+.floating-label-wrapper .form-floating input.form-control:focus ~ label,
+.floating-label-wrapper
+  .form-floating
+  input.form-control:not(:placeholder-shown)
+  ~ label {
+  top: -1.4rem;
+  font-size: 20px;
+  color: var(--valid-label-focus-color);
+}

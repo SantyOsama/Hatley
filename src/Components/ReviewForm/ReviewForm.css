@@ -1,0 +1,67 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  display: block;
+}
+
+.sweet-pop-alert {
+  /* background-color: #ffffff; */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px 50px;
+  /* max-width: 80vb; */
+  /* width: 350px; */
+  /* position: fixed; */
+  /* top: 100%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, 0); */
+  border: 2px solid #0084ff;
+  /* z-index: 1001; */
+  /* transition: top 0.5s ease; */
+}
+
+.sweet-pop-alert.show {
+  top: 10%;
+}
+
+.sweet-pop-alert h4 {
+  margin-bottom: 20px;
+  margin-top: -10px;
+}
+
+.sweet-pop-alert img {
+  width: 100px;
+}
+
+.sweet-pop-alert p {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.sweet-pop-alert input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.sweet-pop-alert button {
+  /* padding: 10px 20px; */
+  background-color: #00386d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  line-height: normal;
+}
+
+.sweet-pop-alert button:hover {
+  background-color: #002b54;
+}

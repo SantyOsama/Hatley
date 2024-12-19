@@ -1,0 +1,73 @@
+@media (max-width: 992px) {
+  .aboutContent {
+    padding: 0 !important;
+  }
+  .aboutImage {
+    justify-content: flex-start !important;
+  }
+  .aboutImage img {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .aboutImage img {
+    margin-top: 0px;
+    width: 100%;
+  }
+}
+.Head {
+  margin-top: 0px !important;
+  font-size: 70px;
+  color: #0084ff;
+  font-family: "Lily Script One", cursive;
+}
+
+.aboutContent {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.aboutText {
+  line-height: 1.7;
+  font-size: 25px !important;
+  font-family: "roboto", "sans-serif";
+  font-weight: 400;
+  word-wrap: break-word;
+  margin-top: -15px;
+}
+
+.aboutImage {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.abt-img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.aboutIcons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.fa-facebook-square {
+  color: #3b5998;
+}
+
+.fa-instagram {
+  color: #e1306c;
+}
+
+.fa-slack {
+  color: #3aaf85;
+}
+
+.fa-google {
+  color: #db4437;
+}

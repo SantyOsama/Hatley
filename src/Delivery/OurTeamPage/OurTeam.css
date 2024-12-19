@@ -1,0 +1,88 @@
+#our-team {
+  margin-bottom: 20px;
+}
+
+.rounded-img {
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 100%;
+}
+
+.img-row {
+  text-align: center;
+  padding: 10px;
+}
+
+.img-row img {
+  border-radius: 50%;
+  width: 150px; /* Adjust based on your design */
+  height: 150px; /* Adjust based on your design */
+  object-fit: cover; /* This will make sure the images fit into the circle without being stretched */
+}
+
+.person-details {
+  text-align: center;
+  margin-top: 10px; /* Adjust the margin to match your design */
+}
+
+.person-details .person-name,
+.person-details .person-position {
+  color: #002045;
+  font-size: larger;
+  font-family: "Roboto", sans-serif;
+}
+
+.person-details .description {
+  color: #121e3e;
+  font-size: smaller;
+}
+
+.person-details .linkedin-icon {
+  color: #0077b5; /* LinkedIn's brand color */
+  font-size: larger; /* Adjust as needed */
+  text-decoration: none; /* Removes underline from the anchor tag */
+}
+
+/* Add styles for .fab fa-linkedin after including FontAwesome for LinkedIn icon */
+.fab.fa-linkedin {
+  margin-top: 8px;
+}
+
+@media (max-width: 768px) {
+  .Head {
+    font-size: xxx-large !important;
+  }
+
+  .rounded-img {
+    width: 85%;
+    margin-left: 7%;
+  }
+
+  .person-details {
+    margin-top: 20px;
+  }
+
+  .floating {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .person-name,
+  .person-position {
+    font-size: smaller;
+  }
+
+  .description {
+    font-size: small;
+  }
+}
+
+.floating {
+  position: absolute;
+  background: linear-gradient(243deg, white, #dfe9f2);
+  top: 60%;
+  z-index: -1;
+  width: 100vw;
+  height: 40vh;
+}

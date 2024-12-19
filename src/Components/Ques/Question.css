@@ -1,0 +1,29 @@
+.ques-container {
+  margin-bottom: 20px;
+}
+
+.accordion-item {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 10px !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: ease-in-out 1s ease-out;
+}
+
+.accordion-button {
+  /* background-color: transparent; */
+  color: white;
+  border: none;
+  outline: none;
+  /* padding: 20px; */
+  text-align: left;
+  border-top-left-radius: 8px !important;
+  border-top-right-radius: 8px !important;
+}
+
+.accordion-button.collapsed {
+  color: black; /* Change color when collapsed */
+}
+
+.accordion-body {
+  padding: 20px;
+}

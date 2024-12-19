@@ -1,0 +1,73 @@
+{
+  "name": "hatley",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-regular-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@microsoft/signalr": "^8.0.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "animate.css": "^4.1.1",
+    "axios": "^1.6.8",
+    "bootstrap": "^5.3.3",
+    "date-fns": "^3.6.0",
+    "google-fonts": "^1.0.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.1",
+    "react-calendar-icon": "^0.10.0",
+    "react-datepicker": "^6.5.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-hook-form": "^7.51.0",
+    "react-icons": "^5.0.1",
+    "react-notifications-component": "^4.0.1",
+    "react-redux": "^8.1.0",
+    "react-router-dom": "^6.23.0",
+    "react-scripts": "^5.0.1",
+    "react-spinners": "^0.13.8",
+    "react-spring": "^9.7.3",
+    "redux": "^4.2.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.2",
+    "sweetalert2": "^11.6.13",
+    "web-vitals": "^2.1.4",
+    "webpack-dev-server": "^5.0.4",
+    "yargs-parser": "^21.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.17.0",
+    "autoprefixer": "^10.4.18",
+    "file-loader": "^6.2.0",
+    "postcss": "^8.4.35"
+  }
+}

@@ -1,0 +1,13 @@
+@media (min-width: 992px) {
+  .all-questions {
+    padding: 0 150px;
+  }
+}
+@media (max-width: 480px) {
+  .all-questions {
+    padding: 0 50px;
+  }
+}
+.toggle-modified-question-delivery {
+  margin-right: -13.5px !important;
+}

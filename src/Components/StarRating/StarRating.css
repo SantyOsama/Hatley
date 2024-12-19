@@ -1,0 +1,23 @@
+.star-rating {
+  font-family: sans-serif;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .star-rating {
+    white-space: nowrap;
+    width: 100%;
+  }
+  .star-rating span {
+    font-size: 28px;
+    margin-left: -5px;
+  }
+}
+input[type="radio"] {
+  display: none;
+}
+
+.star {
+  cursor: pointer;
+  font-size: 2rem;
+  margin: 5px;
+}

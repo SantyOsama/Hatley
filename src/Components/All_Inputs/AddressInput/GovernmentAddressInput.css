@@ -1,0 +1,32 @@
+.floating-select-wrapper .custom-select {
+  /* width: 10%; */
+  height: 50px;
+  padding: 0.5rem 1.6rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  border: 1px solid var(--valid-border-color);
+  border-radius: 10px;
+  appearance: none;
+  position: relative;
+  /* display: block; */
+  margin: 0 auto;
+}
+.input-address-container {
+  padding: 0 12.2px;
+}
+.floating-select-wrapper .custom-select:focus {
+  border-color: var(--valid-border-color-on-focus); /* Focus border color */
+  box-shadow: 0 0 0 0.2rem var(--valid-box-shadow-color-on-focus); /* Focus box shadow */
+}
+
+/* Additional styles to handle valid and invalid states */
+.custom-select.is-valid {
+  border-color: var(--valid-border-color);
+}
+
+.custom-select.is-invalid {
+  border-color: var(--invalid-color);
+  box-shadow: 0 0 0 0.2rem var(--invalid-color, 0.5);
+}
